@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+    border:outset white 10px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    color: #ffffff;
+    border:inset 2px white;
+}
+.menu li:hover {
+    background-color:darkblue;
+}
+body {
+	background-color:khaki
+    }
+.footer2 {
+	float:right
+    }
+p {
+	text-indent:10px;
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Enver Creek</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li><a href="www.google.ca">The Flight</a></li>
+      <li><a href="www.google.ca">The City</a></li>
+      <li><a href="www.google.ca">The Island</a></li>
+      <li><a href="www.google.ca">The Food</a></li>
+    </ul>
+  </div>
+
+  <div class="column content">
+  <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
+    <h1>WELCOME</h1>
+    <p>Enver Creek is a place for education. The staff and students of Enver Creek welcome all!</p>
+    <p>At Enver Creek we hope you can find your dreams and/or make a statement in this school!</p>
+  </div>
+</div>
+
+    <div class="footer">
+    <div class="footer2">
+    <p align=right>Phone: 604-543-8149 </p>
+	<p align=right>Fax: 604-543-9762</p>
+    </div>
+    <p align=left>14505-84 Avenue</p>
+	<p align=left>Surrey, B.C. Canada</p>
+	<p align=left>V3S 8X2 </p> 
+   </div>
+   <p> </p>
+</body>
+</html>
