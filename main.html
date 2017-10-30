@@ -36,13 +36,16 @@
     margin-bottom: 8px;
     background-color: teal;
     color: #ffffff;
-    border:inset 2px white;
+    border:inset 5px white;
 }
 .menu li:hover {
-    background-color:darkblue;
+    background-color:lightblue;
 }
 body {
 	background-color:khaki
+    }
+.base{
+	width:800px;
     }
 .footer2 {
 	float:right
@@ -50,10 +53,18 @@ body {
 p {
 	text-indent:10px;
     }
+#current {
+	background-color:lightblue;
+	border:outset 5px white;
+    }
+.more {
+	float:right;
+    width:200px;
+    }
 </style>
 </head>
 <body>
-
+<div class="base">
 <div class="header">
   <h1>Enver Creek</h1>
 </div>
@@ -61,16 +72,16 @@ p {
 <div class="clearfix">
   <div class="column menu">
     <ul>
-      <li><a href="www.google.ca">The Flight</a></li>
-      <li><a href="www.google.ca">The City</a></li>
-      <li><a href="www.google.ca">The Island</a></li>
-      <li><a href="www.google.ca">The Food</a></li>
+      <li id="current"><a href="https://bagbegone.github.io/teams.main">Home</a></li>
+      <li><a href="https://bagbegone.github.io/teams.html">Clubs & Teams</a></li>
+      <li><a href="www.google.ca">sfhsgfh</a></li>
+      <li><a href="www.google.ca">dfghdfgh</a></li>
     </ul>
   </div>
 
   <div class="column content">
-  <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
-    <h1>WELCOME</h1>
+  <h1>WELCOME</h1>
+  <img align="left" width="200" src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
     <p>Enver Creek is a place for education. The staff and students of Enver Creek welcome all!</p>
     <p>At Enver Creek we hope you can find your dreams and/or make a statement in this school!</p>
   </div>
@@ -78,6 +89,7 @@ p {
 
     <div class="footer">
     <div class="footer2">
+    <p align=right>Contact Information:</p>
     <p align=right>Phone: 604-543-8149 </p>
 	<p align=right>Fax: 604-543-9762</p>
     </div>
@@ -86,5 +98,6 @@ p {
 	<p align=left>V3S 8X2 </p> 
    </div>
    <p> </p>
+   </div>
 </body>
 </html>
