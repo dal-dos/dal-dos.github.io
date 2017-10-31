@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+    border:outset white 10px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    color: #ffffff;
+    border:inset 5px white;
+}
+.menu li:hover {
+    background-color:lightblue;
+}
+body {
+	background-color:khaki
+    }
+.base{
+	width:800px;
+    }
+.footer2 {
+	float:right
+    }
+p {
+	text-indent:10px;
+    }
+#current {
+	background-color:lightblue;
+	border:outset 5px white;
+    }
+.more {
+	float:right;
+    width:200px;
+    }
+</style>
+</head>
+<body>
+	<center>
+<div class="base">
+<div class="header">
+  <h1>Enver Creek</h1>
+</div>
 
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li><a href="https://bagbegone.github.io/teams.main">Home</a></li>
+      <li><a href="https://bagbegone.github.io/teams.html">Clubs & Teams</a></li>
+      <li id="current"><a href="https://bagbegone.github.io/departments.html">Departments</a></li>
+    </ul>
+  </div>
+
+  <div class="column content">
+  <h1>WELCOME</h1>
+    <p> Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments</p>
+    <p> Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments Departments</p>
+  </div>
+</div>
+
+    <div class="footer">
+    <div class="footer2">
+    <p align=right>Contact Information:</p>
+    <p align=right>Phone: 604-543-8149 </p>
+	<p align=right>Fax: 604-543-9762</p>
+    </div>
+    <p align=left>14505-84 Avenue</p>
+	<p align=left>Surrey, B.C. Canada</p>
+	<p align=left>V3S 8X2 </p> 
+   </div>
+   <p> </p>
+   </div>
+	</center>
+</body>
+</html>
