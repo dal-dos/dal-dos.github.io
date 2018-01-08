@@ -1,0 +1,32 @@
+/*
+Title: Olarith
+-----------------------
+You are a traveller and wake up in the middle of a forest. You then figure out life, finding your way to Olarith
+
+----------
+----------
+GAME WORLD
+----------
+----------
+
+Characters
+----------
+Attributes
+----------
+- You (hero)
+- name, age (grade), ways to stand up to Nelson
+
+- Bart
+- gives advice, stands up to Nelson (e.g. slingshot, make/trhow water balloons, acorns)
+
+- Nelson
+- picks on you and Bart (e.g., insults, taunts)
+
+- schoolyard kids
+- name, grade, ways to help stand up to Nelson (laugh, make/throw water balloons, push)
+
+Wins and Losses
+----------------
+- Win: stand up to Nelson
+- Lose: get picked on by Nelson
+*/
