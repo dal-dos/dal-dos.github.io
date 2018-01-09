@@ -1,29 +1,35 @@
 /*
 Title: Olarith
 -----------------------
-You are a traveller and wake up in the middle of a forest. You then figure out life, finding your way to Olarith
+You are a traveller and wake up in the middle of a forest. You then figure out life, finding your way to Olarith.
 
 ----------
 ----------
 GAME WORLD
 ----------
 ----------
-
 Characters
+----------
+The traveller- You.
+Dequavis Jinks- Your Father
+Dr. Salem Grim- The keeper of Olarith.
+Dante Hook- A man of mystery who only fights for himself.
 ----------
 Attributes
 ----------
-- You (hero)
-- name, age (grade), ways to stand up to Nelson
+- The traveller
+- charasmatic, adaptive
 
-- Bart
-- gives advice, stands up to Nelson (e.g. slingshot, make/trhow water balloons, acorns)
+- Dequavis Jinks
+- wise, powerful
 
-- Nelson
-- picks on you and Bart (e.g., insults, taunts)
+- Dr. Salem Grim
+- Protects Olarith
 
-- schoolyard kids
-- name, grade, ways to help stand up to Nelson (laugh, make/throw water balloons, push)
+-
+
+- Dante Hook
+- mysterious, very powerful
 
 Wins and Losses
 ----------------
