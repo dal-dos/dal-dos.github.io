@@ -1,1 +1,5 @@
-alert()
+
+<script>
+ function PlayGame() {
+  
+</script>
