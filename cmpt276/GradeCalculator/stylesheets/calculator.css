@@ -54,7 +54,7 @@ td {
     position: relative;
     left: 20px;
     background-color: #e9eff1;
-    height: 640px;
+    height: 700px;
     width: 960px;
     border: 2px solid #dee6ea;
 }
@@ -64,7 +64,7 @@ td {
     font-size: 16px;
     background: #a9182a;
     color: white;
-    border: none;
+    border: 2px solid white;
     padding: 6px;
     border-radius: 4px;
 }
@@ -106,15 +106,21 @@ td {
 #button1 {
     float: right;
     padding-right: 20px;
-    padding-top: 20px;
+    padding-top: 5px;
+    margin-top: 5px;
 }
 
 #button2 {
     float: right;
     padding-right: 20px;
-    padding-top: 20px;
+    padding-top: 5px;
+    margin-top: 5px;
 }
 
 #percent{
     width:160px;
+}
+
+#resultEnd{
+    padding-left:20px;
 }
